@@ -1,0 +1,32 @@
+.grafig3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.datazapis{
+    .datazapis__card{
+        margin-top: 5px;
+        margin-bottom: 15px;
+        
+        background-color: #B9B9C9;
+        div{
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            img{
+                padding-right: 5px;
+            }
+            p{
+                font-size: 14px;
+                color: #000000;
+            }
+        }
+        p{
+            padding-left: 10px;
+            font-size: 12px;
+            color: #4F4F4F;
+        }
+        width: 335px;
+        height: 73px;
+        border-radius: 15px;
+    }
+}

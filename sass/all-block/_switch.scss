@@ -1,0 +1,63 @@
+$background-color_1: #828282;
+$background-color_2: white;
+$background-color_3: #9C0A35;
+
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 40px;
+	height: 23px;
+	input {
+		visibility: hidden;
+	}
+}
+.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: $background-color_1;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+	&:before {
+		position: absolute;
+		content: "";
+		height: 19px;
+		width: 19px;
+		left: 2px;
+		bottom: 2px;
+		top: 2px;
+		background-color: $background-color_2;
+		-webkit-transition: 0.5s;
+		transition: 0.5s;
+	}
+}
+input {
+	&:checked {
+		+ {
+			.slider {
+				background-color: $background-color_3;
+				&:before {
+					-webkit-transform: translateX(12px);
+					-ms-transform: translateX(16px);
+					transform: translateX(16px);
+				}
+			}
+		}
+	}
+	&:focus {
+		+ {
+			.slider {
+				box-shadow: 0 0 1px #9C0A35;
+			}
+		}
+	}
+}
+.slider.round {
+	border-radius: 50px;
+	&:before {
+		border-radius: 50%;
+	}
+}

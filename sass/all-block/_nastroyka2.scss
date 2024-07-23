@@ -1,0 +1,40 @@
+.navbar{
+    .nav{
+        display: flex;
+
+        p{
+            color: #ffff;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-left: 90px;
+        }
+    }
+    .container{
+        margin-top: 50px;
+        p{
+            display: flex;
+            align-items: center;
+        }
+        .container__flex{
+            border-radius: 14px;
+            display: flex;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            justify-content: space-between;
+            background-color: #B9B9C9;
+            width: 335px;
+            height: 44px;
+            font-size: 14px;
+            padding-left: 10px;
+            padding: 7px;
+            div{
+                display: flex;
+                p{
+                    padding-left: 5px;
+                }
+            }
+        }
+    }
+}

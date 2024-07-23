@@ -1,0 +1,43 @@
+.narashivanie4{
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        div{
+            display: flex;
+            gap: 13px;
+        }
+    }
+    .foto3dtext{
+        p{
+            font-size: 16px;
+            color: #ffffff;
+            padding-top: 30px;
+            padding-bottom: 10px;
+        }
+    }
+
+    .foto3dimg{
+        display: flex;
+        gap: 10px;
+    }
+    
+    .resnech__button{
+        display: flex;
+        align-items: end;
+        margin-top: 500px;
+        button{
+            border-radius: 10px;
+            width: 335px;
+            height: 42px;
+            font-size: 14px;
+            background-color: #828282;
+            border: none;
+            color: #ffffff;
+        }
+    }
+    .resnech__button:hover{
+        button{
+            background-color: #9F0F31;
+        }
+    }
+}

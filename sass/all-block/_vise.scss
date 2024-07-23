@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    margin: 0 auto;
+    background-color: #21212E;
+    width: 390px;
+    height: 812px;
+    padding-left: 26px;
+    padding-right: 20px;
+    padding-top: 65px;
+    font-family: Montserrat, sans-serif;
+    // margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.vise{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}

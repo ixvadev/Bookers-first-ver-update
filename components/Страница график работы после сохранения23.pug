@@ -1,0 +1,36 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="/sass/main.css")
+        title Страница график работы после сохранения
+    body
+        main
+            .navbar
+                .nav
+                    img(src="/assets/svg/navar.svg", alt="")
+                    p Моё расписание
+                .sdelatfoto.grafig3
+                    p Разрешить запись клиентам
+                    form
+                        label.switch
+                            input(type='checkbox', onclick='change()')
+                            span.slider.round
+                            h2#light-text
+                .datazapis
+                    .datazapis__card
+                        div 
+                            img(src="/assets/svg/Date_range.svg", alt="")
+                            p Длительность записи
+                        p 2 дня
+                    .datazapis__card
+                        div 
+                            img(src="/assets/svg/drink.svg", alt="")
+                            p Перерыв между сеансами
+                        p 1 час. 45 мин.
+                    .datazapis__card
+                        div 
+                            img(src="/assets/svg/GIft.svg", alt="")
+                            p Подтверждение записи
+                        p Подтверждать запись для всех клиенов

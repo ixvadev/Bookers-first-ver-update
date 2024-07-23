@@ -1,0 +1,43 @@
+.fotozagruska{
+    .nav{
+        display: flex;
+        gap: 30px;
+        justify-content: space-between;     
+        color: #ffffff;
+        align-items: center;
+        
+    }
+
+    div{
+        div{
+            display: flex;
+            gap: 10px;
+        }
+    }
+
+    .foto3dtext{
+        p{
+            font-size: 16px;
+            color: #ffffff;
+            padding-top: 30px;
+            padding-bottom: 10px;
+        }
+    }
+
+    .fotoalboms{
+        div{
+            display: flex;
+            gap: 10px;
+        }
+    }
+}
+
+.sdelatfoto{
+    margin-top: 8px;
+    display: flex;
+    gap: 103px;
+    p{
+        color: #ffffff;
+        font-size: 15px;
+    }
+}

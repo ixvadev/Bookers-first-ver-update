@@ -1,0 +1,69 @@
+
+.profel{
+    .profelh1{
+        color: #FFFFFF;
+        font-family: Montserrat, sans-serif;
+        font-size: 24px;
+        padding-bottom: 20px;
+    }
+    .profel__avatar{
+        display: flex;
+        gap: 20px;
+        .profels__edint{
+            display: flex;
+            align-items: center;
+            .profel__edint{
+                p{
+                    padding-bottom: 5px;
+                }
+                .profel__name{
+                    font-size: 17px;
+                    color: #FFFFFF;
+                }
+                .profel__call{
+                    font-size: 12px;
+                    color: #828282;
+                }
+            }
+        }
+    }
+
+    .container{
+        margin-top: 50px;
+        p{
+            display: flex;
+            align-items: center;
+        }
+        .container__flex{
+            border-radius: 14px;
+            display: flex;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            justify-content: space-between;
+            background-color: #B9B9C9;
+            width: 335px;
+            height: 44px;
+            font-size: 14px;
+            padding-left: 10px;
+            padding: 7px;
+            div{
+                display: flex;
+                p{
+                    padding-left: 5px;
+                }
+            }
+        }
+    }
+    .footer{
+        .footer__container{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 70px;
+            .footer__flex{
+                .footer__p{
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}
