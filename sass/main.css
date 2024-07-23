@@ -486,4 +486,99 @@ main {
 
 .resnech__button:hover button {
   background-color: #9F0F31;
+}
+
+.podnyam25 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #9C0A35;
+  width: 169px;
+  height: 32px;
+  border-radius: 6px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.podnyam25 a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+.container {
+  text-align: center;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #FFF;
+}
+
+.dropdown-toggle {
+  background-color: #3E3E4E;
+  color: #FFF;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.dropdown-toggle:focus {
+  outline: none;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #3E3E4E;
+  border-radius: 4px;
+  margin-top: 5px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  width: 100%;
+  padding: 10px;
+}
+
+.dropdown-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.dropdown-hour, .dropdown-minute {
+  background-color: #9F0F31;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.dropdown-item {
+  color: #FFF;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #575765;
+}
+
+.dropdown-select {
+  background-color: #9F0F31;
+  color: #FFF;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dropdown-select:hover {
+  background-color: #B71B4A;
 }/*# sourceMappingURL=main.css.map */
